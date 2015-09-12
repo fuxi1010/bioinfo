@@ -1,7 +1,7 @@
 # awk
-awk 'program'
+awk 'program' :
 
-awk will wait for us to input in the terminal untill we use Ctrl+d to end this;
+awk会将program应用于你在终端中接着输入的任意数据行，直到你输入一个文件结束信号 Ctrl+d;
 
 if we want to excute program file, then : awk -f programfile     optional list of input files
 
